@@ -14,14 +14,41 @@ html {
 
 body {
     text-align: center;
+    background-color: rgb(194, 235, 250);
 }
 
 #fact-output {
     display: flex;
+    justify-content: space-evenly;
+}
+
+#catImageOutput {
+    margin: 0;
+}
+
+p {
+    border-style: solid;
+    border-radius: 5%;
+    padding: 1%;
+    margin: 2%;
+    font-weight: 900;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    border: none;
+}
+
+em {
+    font-weight: 900;
+    font-style: normal;
 }
 
 img {
-    width: 50%;
-    height: 50%;
+    width: 400px;
+    height: 400px;
+
+    /* This is what makes images scale, pretty cool */
     object-fit: scale-down;
 }
