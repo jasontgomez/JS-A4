@@ -1,3 +1,9 @@
+// Assignment 4 | COMP1073 Client-Side JavaScript
+// Jason Gomez 200587201
+// Daniel Perusse 20055190
+// Sebastian 200561191
+// COMP1073
+
 // Define the endpoint URL for fetching cat facts and images
 catEndpointUrl = "https://meowfacts.herokuapp.com/";
 imageEndpointURL = "https://cataas.com/cat?json=true";
