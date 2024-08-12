@@ -5,3 +5,23 @@ Jason Gomez 200587201
 Daniel Perusse 20055190
 Sebastian 200561191
 */
+
+html {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+
+body {
+    text-align: center;
+}
+
+#fact-output {
+    display: flex;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+}
